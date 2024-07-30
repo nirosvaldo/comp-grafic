@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 190, 190);
+}
+
+section, footer {
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    
+}
+body {
+    background-color: #11d100; /* Cor de fundo para toda a página */
+    font-family: Arial, sans-serif;
+}
+
+.minha-div {
+    background-color: rgb(175, 255, 186); /* Cor de fundo para a div com a classe minha-div */
+    padding: 01px;
+    margin: 01px;
+    border: 01px solid #000000;
+}
+.minha-div1 {
+    background-color: rgb(175, 255, 186); /* Cor de fundo para a div com a classe minha-div */
+    padding: 15px;
+    margin: 0px;
+    border: 01px solid #000000;
+}
+
+body {
+    background-color: #bafab1; /* Cor de fundo para toda a página */
+    font-family: Arial, sans-serif;
+}
+
+section1{
+    display: flex;
+}
+.dd{
+    text-align: center;
+}
+.principal{
+    display: flex ;
+}
+.frete{
+   text-align: center;
+}
+form, h2, h1{
+    text-align: center;
+}
+
+.card {
+    width: 290px; /* Ajuste a largura do card */
+    margin: 10px auto; /* Centraliza o card na página */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao card */
+    border-radius: 10px; /* Arredonda os cantos do card */
+    text-align: center; /* Centraliza o texto do card */
+    margin-bottom: 2px ;
+}
+
+h2 {
+    margin: 20px 0; /* Adiciona espaço acima e abaixo do título */
+    color: #000000; /* Define a cor do título */
+}
+
+img {
+    width: 50%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+}
+
+p {
+    margin-bottom: 10px; /* Adiciona espaço abaixo do parágrafo */
+    line-height: 1.5; /* Ajusta o espaçamento entre as linhas do texto */
+}
+
+button {
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: #ffffff; /* Define a cor do texto do botão */
+    padding: 10px 20px; /* Define o padding do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para o modo "mão" ao passar o mouse sobre o botão */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo do botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo do botão ao passar o mouse sobre ele */
+}
